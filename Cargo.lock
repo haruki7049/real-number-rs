@@ -3,5 +3,13 @@
 version = 3
 
 [[package]]
+name = "fraction-rs"
+version = "0.1.0"
+source = "git+https://github.com/haruki7049/fraction-rs.git#b8b2432428ad910dc7b676632ad829d0cac8e35a"
+
+[[package]]
 name = "real-number-rs"
 version = "0.1.0"
+dependencies = [
+ "fraction-rs",
+]
